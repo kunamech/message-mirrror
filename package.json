@@ -1,0 +1,17 @@
+{
+  "name": "ofc-tv-revival",
+  "version": "1.0.0",
+  "description": "nostalgia is a strong feeling",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "uurgothat",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "eris": "^0.15.1",
+    "moment": "^2.29.1"
+  }
+}
