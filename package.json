@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "publish": "git push origin main"
+    "push": "git push origin main"
   },
   "author": "uurgothat",
   "license": "ISC",
