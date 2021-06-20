@@ -135,7 +135,7 @@ client.on('message', msg => {
         if(msg.mentions.users.first()) {
              id = msg.mentions.users.first().id;
         } else {
-            let args = msg.content.slice(' ')
+            let args = msg.content.split(' ')
             id = args[1]
         }
         if(!hardConfig.maintainers.includes(id)) return msg.reply(`${id} Is not in database`)

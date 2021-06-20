@@ -12,7 +12,6 @@ welcome() {
     echo "   4. Update the dependencies"
     echo "   9. Exit program"
     echo ""
-    echo "Credits: Original launcher by AvaIre and modified by Kuna"
 
     echo "Enter your option: "
 
